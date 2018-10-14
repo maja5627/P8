@@ -14,18 +14,18 @@ public class Transforms implements ImageInterface{
 		 picLib = new PictureLibrary();
 		 
 	    }
-	
-	@Override
-	public void readImage(String inFile) {
-		  try {
-			  picLib.readPGM(inFile);
-			 picHeight = picLib.getHeight();
-			 picWidth = picLib.getWidth();
-			 image = picLib.getData();
-		    } catch (Exception e) {
-		        System.out.println(e.getMessage());
-		    }
-	}
+//	
+//	@Override
+//	public void readImage(String inFile) {
+//		  try {
+//			  picLib.readPGM(inFile);
+//			 picHeight = picLib.getHeight();
+//			 picWidth = picLib.getWidth();
+//			 image = picLib.getData();
+//		    } catch (Exception e) {
+//		        System.out.println(e.getMessage());
+//		    }
+//	}
 
 	@Override
 	public void writeImage(String outFile) {
